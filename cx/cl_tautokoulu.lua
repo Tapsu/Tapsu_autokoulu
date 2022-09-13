@@ -287,8 +287,8 @@ Draw3DText = function(coords, text, scale)
 	SetTextColour(255, 255, 255, 215)
 	AddTextComponentString(text)
 	DrawText(x, y)
-    local factor = (string.len(text)) / 400
-    DrawRect(x, y+0.012, 0.015+ factor, 0.03, 0, 0, 0, 0)
+  local factor = (string.len(text)) / 400
+  DrawRect(x, y+0.012, 0.015+ factor, 0.03, 0, 0, 0, 0)
 end
 
 round = function(num)
